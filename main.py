@@ -6,10 +6,9 @@ import requests, json
 class Chamada(BaseModel):
     campaign: str
     companyName: str
-    date: datetime | None = None
     emailAddress: str
     leadID: int
-    lead_cnpj: str | None = None
+    lead_cnpj: str
     firstName: str
     phoneNumber: int
     product: str
