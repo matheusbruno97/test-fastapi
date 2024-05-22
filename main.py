@@ -20,8 +20,8 @@ headers = {
 }
 
 query_params = {
-    'accountID': '7CB1260E01C728EA9A185A3CED2C68D8',
-    'secretKey': '03E5065CBFF46E2931B62E5A132FACE6'
+    'accountID': '7CB1260E01C728EA9A185A3CED2C683D8', # This is only an example
+    'secretKey': '03E5065CBFF46E2931B62E5A132FA4CE6' # Only an example
 }
 
 app = FastAPI()
